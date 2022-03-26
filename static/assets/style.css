@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+header,
+.view{
+    height: 100%;
+}
+
+/* Navbar */
+.logo-color{
+    color: #ffa366;
+}
+.navbar{
+    transition: all 0.4s;
+    
+}
+.navbar .nav-link{
+    color:black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus{
+    color:#ffa366;
+}
+.navbar .nav-item{
+    padding-top:10px;
+}
+.navbar .navbar-brand{
+    color:black;
+}
+
+/* Change navbar styling on small viewports */
+
+/* Navbar */
+
+/* Main */
+
+
+.mainp{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size:16.2px;
+    opacity: 0.8;
+}
+
+
+/* Button */
+.btn-primary{
+    box-shadow: 0 0 0 100px #ffa366 inset !important;
+    background: transparent !important;
+    font-weight: 700;
+    border-radius: 25px;
+    border:none !important;
+    border-color: #ffa366 !important;
+    color: white;
+    transition: all 0.5s;
+}
+
+#hov:hover{
+    transition:all 0.3s ease !important;
+    -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transition: scale(1.2) !important;
+    z-index: 2;
+}
+
+.btn-md{
+    padding: 1rem 1.6rem;
+}
+
+.btn-primary-outline{
+    box-shadow: 0 0 0 2px #ffa366 inset !important;
+    background:transparent;
+    font-weight: 700;
+    border-radius: 25px;
+    color:black;
+    overflow: hidden;
+    border:none;
+    transition: all 0.5s;
+}
+#contactnow:hover{
+    background-color:#ffa366;
+    color:white;
+}
+
+.card{
+    transition: all 0.5s;
+}
+
+.photo-album img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.family img{
+    width: 50%;
+    height: 50%;
+}
